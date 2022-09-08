@@ -57,6 +57,7 @@ dd {
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 nav,
@@ -123,6 +124,7 @@ body{
   font-family: "Verdana", sans-serif;
   position: relative;
   background: #fbfbfb;
+  overflow-x: hidden;
 }
 
 main {
@@ -479,7 +481,7 @@ section:last-child {
     opacity: 0;
     visibility: hidden;
     position: absolute;
-    top: 5px;
+    top: 7px;
     left: -10px;
     transition: opacity .2s linear, visibility .2s linear;
   }
@@ -1004,7 +1006,7 @@ section:last-child {
     .product-btn__svg {
       opacity: 0;
       visibility: hidden;
-      transition: opacity .2s linear, visibility .2s linear;
+      transition: opacity .2s linear, visibility .2s linear, transform .2s .1s linear;
     }
   }
 }
@@ -1067,7 +1069,7 @@ section:last-child {
     .product__card-list-item-btn {
       width: 100%;
       height: 200px;
-      background-image: url(../../img/catalog-img-2.webp);
+      background-image: url(../img/catalog-img-2.webp);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;

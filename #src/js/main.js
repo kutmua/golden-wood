@@ -25,11 +25,15 @@ document.addEventListener('DOMContentLoaded', function(){
   }
 
   function adaptiveLink() {
-    if(window.innerWidth <= 320){
+    if(document.documentElement.clientWidth <= 470){
       menuHeight = 250;
 
       btnsBurgerCatalogLink.forEach(btn => {
-        btn.setAttribute('data-bs-offset','0,13');
+        btn.setAttribute('data-bs-offset','10,14');
+      })
+
+      document.querySelectorAll('.product__dropdown-menu-list-item').forEach(elem => {
+        elem.classList.remove('dropend');
       })
     }
     else menuHeight = 300;

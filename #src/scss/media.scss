@@ -211,14 +211,20 @@
   }
 
   .burger-catalog__list-item, .burger-menu__list-item {
+    padding: 0;
+    display: flex;
+  }
+
+  .burger-catalog__list-item, .burger-menu__list-item {
     line-height: normal;
   }
   .burger-catalog__link, .burger-menu__link {
-    font-size: 13px;
+    padding: 9px 0;
+    font-size: 12px;
   }
 
   .burger-catalog__link svg {
-    top: 4px;
+    top: 12px;
     left: -9px;
   }
 
@@ -340,5 +346,12 @@
   }
   .product__cards-container .product__cards-sort-list {
     justify-content: flex-start;
+  }
+
+  .product__dropdown-menu-list .product__dropdown-menu-list-item  .dropdown-menu{
+    --bs-dropdown-min-width: 13rem;
+  }
+  .product__dropdown-menu-list .product-btn.show .product-btn__svg {
+    transform: rotate(90deg);
   }
 }
