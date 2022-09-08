@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GoldenWood Studio - мебель премиального качества на заказ в Краснодаре">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../img/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../img/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../../img/favicons/favicon-16x16.png">
+  <link rel="manifest" href="../../img/favicons/site.webmanifest">
+  <link rel="mask-icon" href="../../img/favicons/safari-pinned-tab.svg" color="#33b5da">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="theme-color" content="#000000">
+  <title>GoldenWood Studio - мебель премиального качества на заказ в Краснодаре</title>
+
+  <!-- fonts -->
+  <link rel="preload" href="../../fonts/Verdana.woff2" as="font">
+  <link rel="preload" href="../../fonts/Verdana.woff" as="font">
+  <link rel="preload" href="../../fonts/Verdana-Bold.woff2" as="font">
+  <link rel="preload" href="../../fonts/Verdana-Bold.woff" as="font">
+
+  <!-- main styles -->
+  <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../../css/normalize.min.css">
+  <link rel="stylesheet" href="../../css/style.min.css">
+  <link rel="stylesheet" href="../../css/media.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top-wrapper">
+      <div class="container header__top-container flex">
+        <ul class="header__top-list flex">
+          <li class="header__top-list-item">
+            <a class="btn-status" href="../about-us.html">
+              О нас
+            </a>
+          </li>
+          <li class="header__top-list-item">
+            <a class="btn-status" href="../delivery.html">
+              Доставка
+            </a>
+          </li>
+          <li class="header__top-list-item">
+            <a class="btn-status" href="../montage.html">
+              Монтаж
+            </a>
+          </li>
+          <li class="header__top-list-item">
+            <a class="btn-status" href="../payment.html">
+              Оплата
+            </a>
+          </li>
+          <li class="header__top-list-item">
+            <a class="btn-status" href="../cooperation.html">
+              Сотрудничество
+            </a>
+          </li>
+          <li class="header__top-list-item">
+            <a class="btn-status" href="../contacts.html">
+              Контакты
+            </a>
+          </li>
+        </ul>
+
+        <div class="header__top-search-container flex">
+          <input type="text" placeholder="Поиск товаров...">
+          <button class="header__top-btn button" type="submit">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13 13L9.569 9.52963M6 11C4 11 1 9.5 1 6C1 2.5 4 1 6 1C8 1 11 2.5 11 6C11 9.5 8 11 6 11Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="header__middle-wrapper">
+      <div class="container header__middle-container header__middle">
+        <ul class="header__middle-list flex">
+          <li class="header__middle-list-item">
+            <a class="header__logo back-main-page" href="../../index.html">
+              <strong>GoldenWood</strong>
+            </a>
+          </li>
+
+          <li class="header__middle-list-item item-social flex">
+            <a class="header__phone" href="tel:+79999999999">
+              <svg width="24px" height="24px" viewBox="0 0 24 24" fill="black" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 12C22 10.6868 21.7413 9.38647 21.2388 8.1731C20.7362 6.95996 19.9997 5.85742 19.0711 4.92896C18.1425 4.00024 17.0401 3.26367 15.8268 2.76123C14.6136 2.25854 13.3132 2 12 2V4C13.0506 4 14.0909 4.20703 15.0615 4.60889C16.0321 5.01099 16.914 5.60034 17.6569 6.34326C18.3997 7.08594 18.989 7.96802 19.391 8.93848C19.7931 9.90918 20 10.9495 20 12H22Z" fill="white"/>
+                <path d="M2 10V5C2 4.44775 2.44772 4 3 4H8C8.55228 4 9 4.44775 9 5V9C9 9.55225 8.55228 10 8 10H6C6 14.4182 9.58173 18 14 18V16C14 15.4478 14.4477 15 15 15H19C19.5523 15 20 15.4478 20 16V21C20 21.5522 19.5523 22 19 22H14C7.37259 22 2 16.6274 2 10Z" fill="white"/>
+                <path d="M17.5433 9.70386C17.8448 10.4319 18 11.2122 18 12H16.2C16.2 11.4485 16.0914 10.9023 15.8803 10.3928C15.6692 9.88306 15.3599 9.42017 14.9698 9.03027C14.5798 8.64014 14.1169 8.33081 13.6073 8.11963C13.0977 7.90869 12.5515 7.80005 12 7.80005V6C12.7879 6 13.5681 6.15527 14.2961 6.45679C15.024 6.7583 15.6855 7.2002 16.2426 7.75732C16.7998 8.31445 17.2418 8.97583 17.5433 9.70386Z" fill="white"/>
+              </svg>
+              +7(999) 999-99-99
+            </a>
+            <a class="header__social whatsapp" href="https://wa.me/+79999999999">
+              <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 40.1745L2.82736 29.8538C0.640008 26.0556 -0.233283 21.642 0.342872 17.2971C0.919027 12.9522 2.91242 8.91869 6.01407 5.82192C9.11572 2.72515 13.1523 0.738076 17.4982 0.168753C21.844 -0.40057 26.2562 0.479657 30.0509 2.67298C33.8456 4.8663 36.8107 8.25019 38.4866 12.3001C40.1625 16.35 40.4556 20.8396 39.3204 25.073C38.1853 29.3064 35.6852 33.047 32.2079 35.7151C28.7306 38.3831 24.4702 39.8295 20.0872 39.83C16.7625 39.8281 13.4912 38.9938 10.5717 37.4033L0 40.1745ZM11.0472 33.8083L11.6539 34.1828C14.205 35.6935 17.1149 36.4915 20.0798 36.4933C23.7513 36.4941 27.3189 35.2746 30.2218 33.0267C33.1247 30.7788 35.1982 27.63 36.1164 24.0751C37.0346 20.5203 36.7454 16.7611 35.2943 13.3886C33.8431 10.0161 31.3123 7.22141 28.0998 5.44399C24.8872 3.66657 21.175 3.00717 17.5469 3.56948C13.9187 4.13178 10.5803 5.88389 8.05642 8.55035C5.53257 11.2168 3.96643 14.6464 3.60421 18.3C3.24199 21.9536 4.10424 25.6239 6.0554 28.7341L6.42988 29.3594L4.75593 35.4672L11.0472 33.8083Z" fill="white"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M30.1196 24.6484C29.9961 24.4387 29.6628 24.3151 29.1647 24.0679C28.6666 23.8208 26.2213 22.6149 25.7644 22.4464C25.3075 22.2779 24.978 22.1993 24.641 22.6973C24.3039 23.1954 23.3565 24.3151 23.0681 24.6484C22.7798 24.9817 22.4839 25.0229 21.9896 24.772C20.53 24.1858 19.1831 23.3508 18.0089 22.3041C16.9209 21.2977 15.9882 20.1354 15.2415 18.8551C14.9494 18.3571 15.2078 18.1062 15.4587 17.8403C15.7096 17.5744 15.9567 17.2561 16.2076 16.9677C16.4135 16.7166 16.5814 16.4364 16.7057 16.1364C16.7712 15.9988 16.8018 15.8472 16.7946 15.695C16.7874 15.5427 16.7427 15.3946 16.6645 15.2638C16.5409 15.0167 15.541 12.5676 15.1291 11.5715C14.7172 10.5753 14.3165 10.7326 14.0057 10.7139C13.6948 10.6952 13.384 10.7139 13.0545 10.7139C12.7985 10.7181 12.5463 10.776 12.3141 10.8837C12.0819 10.9914 11.8749 11.1466 11.7063 11.3393C11.1479 11.8688 10.7049 12.5081 10.4052 13.217C10.1056 13.9258 9.95569 14.689 9.96501 15.4586C9.96501 17.9077 11.7475 20.2744 11.9984 20.6077C12.2493 20.941 15.5073 25.9666 20.4992 28.1198C21.426 28.5197 22.3735 28.8697 23.3378 29.1684C24.353 29.4767 25.4261 29.5446 26.4722 29.3669C27.4271 29.2245 29.4156 28.161 29.8425 27.0001C30.2694 25.8392 30.2432 24.8543 30.1196 24.6484Z" fill="white"/>
+              </svg>
+              +7(999) 999-99-99
+            </a>
+            <a class="header__email" href="mailto:golden@wood.ru">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 8C11 9 11.7309 10 13 10C14.1261 10 14.8567 9.28891 15 8C15.2559 5.69873 13 1 8 1C3 1 1 5.5 1 8C1 13.2267 5.56129 15 8 15C9.77112 15 10.6179 14.5332 11.5 14M11 8C11 6.1779 9.5 5 8 5C6.32844 5 5 6.33563 5 8C5 9.66437 6.31237 11 8 11C9.5 11 11 10 11 8Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              golden@wood.ru
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </header>
+
+  <main>
+    <section class="section product mb-auto">
+      <div class="container product-container flex">
+        <div class="product__dropdown-menu">
+          <ul class="product__dropdown-menu-list">
+            <li class="product__dropdown-menu-list-item dropend">
+              <button class="product-btn button flex justify-content-between" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Мебель Лофт
+                <svg class="product-btn__svg" width="6" height="12" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L7 8L0.999999 15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+              </button>
+
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="table.html">Стулья Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Столы Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Тумбы Лофт</a></li>
+              </ul>
+            </li>
+
+            <li class="product__dropdown-menu-list-item dropend">
+              <button class="product-btn button flex justify-content-between" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Для дома
+                <svg class="product-btn__svg" width="6" height="12" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L7 8L0.999999 15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+              </button>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="table.html">Стулья Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Столы Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Тумбы Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Тумбы Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Тумбы Лофт</a></li>
+              </ul>
+            </li>
+
+            <li class="product__dropdown-menu-list-item dropend">
+              <button class="product-btn button flex justify-content-between" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Для бизнеса
+                <svg class="product-btn__svg" width="6" height="12" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L7 8L0.999999 15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+              </button>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="table.html">Стулья Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Столы Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Тумбы Лофт</a></li>
+              </ul>
+            </li>
+
+            <li class="product__dropdown-menu-list-item dropend">
+              <button class="product-btn button flex justify-content-between" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Лестницы
+                <svg class="product-btn__svg" width="6" height="12" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L7 8L0.999999 15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+              </button>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="table.html">Стулья Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Столы Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Тумбы Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Тумбы Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Тумбы Лофт</a></li>
+              </ul>
+            </li>
+
+            <li class="product__dropdown-menu-list-item dropend">
+              <button class="product-btn button flex justify-content-between" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Перегородки
+                <svg class="product-btn__svg" width="6" height="12" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L7 8L0.999999 15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+              </button>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="table.html">Стулья Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Столы Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Тумбы Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Тумбы Лофт</a></li>
+              </ul>
+            </li>
+
+            <li class="product__dropdown-menu-list-item dropend">
+              <button class="product-btn button flex justify-content-between" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Декор
+                <svg class="product-btn__svg" width="6" height="12" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L7 8L0.999999 15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+              </button>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="table.html">Стулья Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Столы Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Тумбы Лофт</a></li>
+              </ul>
+            </li>
+
+            <li class="product__dropdown-menu-list-item dropend">
+              <button class="product-btn button flex justify-content-between" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Изделия из метала
+                <svg class="product-btn__svg" width="6" height="12" viewBox="0 0 8 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L7 8L0.999999 15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+
+              </button>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="table.html">Стулья Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Столы Лофт</a></li>
+                <li><a class="dropdown-item" href="table.html">Тумбы Лофт</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="product__cards-container">
+          <ul class="product__cards-sort-list flex">
+            <li class="product__cards-sort-list-item">
+              <button class="button">По названию</button>
+            </li>
+
+            <li class="product__cards-sort-list-item">
+              <button class="button">По цене</button>
+            </li>
+
+            <li class="product__cards-sort-list-item">
+              <button class="button">По наличию</button>
+            </li>
+
+          </ul>
+
+          <ul class="product__card-list flex">
+            <li class="product__card-list-item" data-bs-toggle="modal" data-bs-target="#cardProductModal">
+              <button class="button product__card-list-item-btn">
+
+              </button>
+
+              <button class="button">
+                <p>Стол Лофт</p>
+              </button>
+            </li>
+            <li class="product__card-list-item" data-bs-toggle="modal" data-bs-target="#cardProductModal">
+              <button class="button product__card-list-item-btn">
+
+              </button>
+              <button class="button">
+                <p>Стол Лофт</p>
+              </button>
+            </li>
+            <li class="product__card-list-item" data-bs-toggle="modal" data-bs-target="#cardProductModal">
+              <button class="button product__card-list-item-btn">
+
+              </button>
+              <button class="button">
+                <p>Стол Лофт</p>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="section footer">
+      <div class="container footer__container flex">
+        <a class="footer__logo back-main-page" href="../../index.html">
+          <strong>GoldenWood</strong>
+          <p>GoldenWood Studio 2022</p>
+        </a>
+
+        <ul class="footer__catalog-list">
+          <li>
+            <a class="button" href="">
+              Мебель для дома
+            </a>
+          </li>
+          <li>
+            <a class="button" href="">
+              Мебель для дома
+            </a>
+          </li>
+          <li>
+            <a class="button" href="">
+              Мебель в гостиную
+            </a>
+          </li>
+          <li>
+            <a class="button" href="">
+              Мебель для ванной
+            </a>
+          </li>
+          <li>
+            <a class="button" href="">
+              Мебель в прихожую
+            </a>
+          </li>
+          <li>
+            <a class="button" href="">
+              Мебель на кухню
+            </a>
+          </li>
+          <li>
+            <a class="button" href="">
+              Каталог
+            </a>
+          </li>
+        </ul>
+
+        <ul class="footer__catalog-list mr-auto">
+          <li>
+            <a class="button" href="">
+              Мебель для дома
+            </a>
+          </li>
+          <li>
+            <a class="button" href="">
+              Мебель для дома
+            </a>
+          </li>
+          <li>
+            <a class="button" href="">
+              Мебель в гостиную
+            </a>
+          </li>
+          <li>
+            <a class="button" href="">
+              Мебель для ванной
+            </a>
+          </li>
+          <li>
+            <a class="button" href="">
+              Мебель в прихожую
+            </a>
+          </li>
+          <li>
+            <a class="button" href="">
+              Мебель на кухню
+            </a>
+          </li>
+          <li>
+            <a class="button" href="">
+              Каталог
+            </a>
+          </li>
+        </ul>
+
+        <div class="footer__contacts">
+          <ul class="footer__contacts-list">
+            <li class="footer__contacts-list-item">
+              <a class="footer__contacts-list-item-link phone" href="tel:+79999999999">
+                +7(999) 999-99-99
+              </a>
+            </li>
+
+            <li class="footer__contacts-list-item whatsapp">
+              <a class="footer__contacts-list-item-link" href="https://wa.me/+79999999999">
+                +7(999) 999-99-99
+              </a>
+            </li>
+
+            <li class="footer__contacts-list-item email">
+              <a class="footer__contacts-list-item-link" href="mailto:golden@wood.ru">
+                golden@wood.ru
+              </a>
+            </li>
+          </ul>
+
+          <p class="footer__contacts-city flex">
+            г.Краснодар
+            <span class="footer__contacts-city-adress">
+              ул.Красная 123
+            </span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal modal-card-product fade" id="cardProductModal" tabindex="-1" aria-labelledby="cardProductLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body flex">
+            <div class="modal__product-photo product-photo-swiper">
+              <div class="swiper-wrapper">
+                <div class="product-photo-slide swiper-slide"></div>
+                <div class="product-photo-slide swiper-slide"></div>
+                <div class="product-photo-slide swiper-slide"></div>
+              </div>
+              <div class="swiper-pagination product-photo-pagination"></div>
+            </div>
+
+            <div class="modal__product-content">
+              <h4 class="product-title">Стул Лофт</h4>
+              <p class="product-descr">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.</p>
+
+              <div class="product-materials">
+                <div class="color-wood flex">
+                  <span>Цвет дерева:</span>
+
+                  <ul class="color-wood__list flex">
+                    <li class="color-wood__list-item focus"><button class="item__mark focus"></button></li>
+                    <li class="color-wood__list-item"><button class="item__mark"></button></li>
+                    <li class="color-wood__list-item"><button class="item__mark"></button></li>
+                    <li class="color-wood__list-item"><button class="item__mark"></button></li>
+                    <li class="color-wood__list-item"><button class="item__mark"></button></li>
+                    <li class="color-wood__list-item"><button class="item__mark"></button></li>
+                    <li class="color-wood__list-item"><button class="item__mark"></button></li>
+                    <li class="color-wood__list-item"><button class="item__mark"></button></li>
+                    <li class="color-wood__list-item"><button class="item__mark"></button></li>
+                    <li class="color-wood__list-item"><button class="item__mark"></button></li>
+                  </ul>
+                </div>
+
+                <div class="color-steel flex">
+                  <span>Цвет метала:</span>
+                  <ul class="color-steel__list flex">
+                    <li class="color-steel__list-item focus"><button class="item__mark focus"></button></li>
+                    <li class="color-steel__list-item"><button class="item__mark"></button></li>
+                    <li class="color-steel__list-item"><button class="item__mark"></button></li>
+                    <li class="color-steel__list-item"><button class="item__mark"></button></li>
+                    <li class="color-steel__list-item"><button class="item__mark"></button></li>
+                    <li class="color-steel__list-item"><button class="item__mark"></button></li>
+                    <li class="color-steel__list-item"><button class="item__mark"></button></li>
+                    <li class="color-steel__list-item"><button class="item__mark"></button></li>
+                    <li class="color-steel__list-item"><button class="item__mark"></button></li>
+                    <li class="color-steel__list-item"><button class="item__mark"></button></li>
+                  </ul>
+                </div>
+              </div>
+
+              <p class="product-parameters">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Ты повстречался страна вопрос возвращайся!</p>
+              <p class="product-price">
+                1000₽
+              </p>
+
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <input class="product-count" type="number" min="1" placeholder="1">
+            <button type="button" class="button btn-in-basket">В корзину</button>
+            <button type="button" class="button btn-fast-order">Быстрый заказ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="../../js/swiper-bundle.min.js"></script>
+  <script src="../../js/swiper-settings.min.js"></script>
+  <script src="../../js/bootstrap.bundle.min.js"></script>
+  <script src="../../js/main.min.js"></script>
+</body>
+</html>
