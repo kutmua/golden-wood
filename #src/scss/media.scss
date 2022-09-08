@@ -153,7 +153,8 @@
   .modal__product-content .color-steel span, .modal__product-content .color-wood span {
     font-size: 12px;
   }
-  .modal__product-content .color-steel__list .item__mark, .modal__product-content .color-wood__list .item__mark {
+  .modal__product-content .color-steel__list .item__mark-steel,
+  .modal__product-content .color-wood__list .item__mark-wood {
     width: 20px;
     height: 20px;
   }
@@ -329,7 +330,8 @@
   }
 
   .product__dropdown-menu {
-    max-width: 250px;
+    max-width: 100%;
+    margin-right: 0;
     margin-bottom: 15px;
   }
   .product__dropdown-menu-list .product-btn {
@@ -349,7 +351,7 @@
   }
 
   .product__dropdown-menu-list .product__dropdown-menu-list-item  .dropdown-menu{
-    --bs-dropdown-min-width: 13rem;
+    --bs-dropdown-min-width: 15rem;
   }
   .product__dropdown-menu-list .product-btn.show .product-btn__svg {
     transform: rotate(90deg);

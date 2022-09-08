@@ -2,6 +2,8 @@ document.addEventListener('DOMContentLoaded', function(){
   const btnsOpenBurger = document.querySelectorAll('._btn-open-burger');
   const btnsBurgerCatalogLink = document.querySelectorAll('.burger-catalog__link');
   const inputCountProduct = document.querySelector('.product-count');
+  const itemMarkWood = document.querySelectorAll('.item__mark-wood');
+  const itemMarkSteel = document.querySelectorAll('.item__mark-steel');
   let menuHeight = 0;
 
   function closeMenu(menu){
@@ -124,6 +126,26 @@ document.addEventListener('DOMContentLoaded', function(){
       }
     })
   });
+
+  itemMarkWood.forEach(btn => {
+    btn.addEventListener('click',() => {
+      itemMarkWood.forEach(btn => {
+        btn.classList.remove('focus');
+      })
+
+      btn.classList.add('focus')
+    })
+  })
+
+  itemMarkSteel.forEach(btn => {
+    btn.addEventListener('click',() => {
+      itemMarkSteel.forEach(btn => {
+        btn.classList.remove('focus');
+      })
+
+      btn.classList.add('focus')
+    })
+  })
 
   inputCountProduct.addEventListener('input', countPrice);
 
